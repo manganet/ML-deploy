@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Chargement de la machine</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="maintext">
+                <h1 class="text-light mb-2">Charger votre image !!</h1>
+                <h2 class="text-light mb-2">Chien ou Chat</h2>
+                <form method="POST" action="https://arcane-brook-42314.herokuapp.com" enctype=multipart/form-data>
+                    <input type="hidden" name="username" value='moimeme'>
+                    <input type="file" name="profile_image"><br />
+                    <input type="submit" style="width: 100%;" value="submit" onmousedown="$('#loading').show();" ><br />
+                </form>
+            </div>
+        </div>
+
+        <div id="loading" class="spinner-wrapper" style="display:none;">
+            <div class="spinner"></div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </body>
+</html>
