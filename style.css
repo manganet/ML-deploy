@@ -170,13 +170,15 @@ input[type='file'] {
   }
 
   #maintext {
-    justify-content: center;
-    align-items: center;
     display: inline;
-    margin: 20px;
+    margin: 0 20px auto 20px;
   }
 
   input[type='file'] {
     width: 100%;
+  }
+
+  input[type='submit'] {
+    height: 5rem;
   }
 }
