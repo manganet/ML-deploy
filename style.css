@@ -169,9 +169,14 @@ input[type='file'] {
     height: 80%;
   }
 
-  input[type='submit'] {
-    margin: 10px auto;
-    height: 10vh;
+  #maintext {
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin: 20px;
+  }
+
+  input[type='file'] {
     width: 100%;
   }
 }
