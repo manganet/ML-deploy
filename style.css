@@ -170,7 +170,7 @@ input[type='file'] {
   }
 
   #maintext {
-    display: inline;
+    font-size: 19px;
     margin: 0 20px auto 20px;
   }
 
